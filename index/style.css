@@ -1,0 +1,35 @@
+td input{
+	width: 40px;
+	height: 40px;
+}
+input {
+	border:none;
+}
+input.editable {
+	border :1px solid black;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+body {
+	text-align: center
+}
+/* Tooltip text */
+td .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+td:hover .tooltiptext {
+    visibility: visible;
+}
