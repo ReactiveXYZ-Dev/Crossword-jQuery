@@ -8,7 +8,7 @@ A crossword generator using jQuery, HTML and Bootstrap (optional, just to make t
 4. Import crossword.js
 5. Load your word sources in an array
 6. Board.begin()
-7?. *check the demo HTML and main.js for more insights
+7. * check the demo HTML and main.js for more insights
 
 # API
 **Word**
